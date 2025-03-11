@@ -41,6 +41,22 @@ ul {
 main {
   flex-grow: 1;
 }
+/* HEADER */
+
+header {
+  background-color: orangered;
+  color: white;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-img {
+  background-position: center top;
+  background-size: contain;
+}
 
 /* MAIN */
 
@@ -67,7 +83,7 @@ main {
 
 .container-info {
   position: absolute;
-  bottom: 110px;
+  bottom: 50px;
   left: 0;
   display: flex;
 }
@@ -94,4 +110,9 @@ main {
 
 .price {
   color: red;
+}
+
+.line-trough {
+  text-decoration: line-through;
+  color: black;
 }
