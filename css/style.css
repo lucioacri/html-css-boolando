@@ -90,6 +90,10 @@ header {
   display: none;
 }
 
+.heart:hover {
+  color: red;
+}
+
 .heart {
   position: absolute;
   top: 10px;
