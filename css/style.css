@@ -78,6 +78,18 @@ header {
   position: relative;
 }
 
+.hidden {
+  display: none;
+}
+
+.container-img:hover .hidden {
+  display: flex;
+}
+
+.container-img:hover .shown {
+  display: none;
+}
+
 .heart {
   position: absolute;
   top: 10px;
